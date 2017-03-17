@@ -1,4 +1,4 @@
-# Refill-uPrint-EEPROMs #
+# Refill-uPrint-EEPROMs
 
 Batch files for creating data to refill uPrint EEPROMs via DIAG-Port and a serial connection
 
@@ -7,8 +7,8 @@ You need to download and copy all stuff from https://github.com/bvanheu/stratasy
 
 ----
 
-**flip + generate + clipboard.bat**
-----
+## flip + generate + clipboard.bat
+
 Run the bat file and paste the UID (b3 5c 1c 0b d0 14 10 0d ) with spaces. You get it when connected to the DIAG-Port via putty. Just mark and copy the output of the UID after the command _er 0 1 0 128_.
 
 ```
@@ -62,13 +62,14 @@ __Take the model cassette out after writing the eeprom and insert it again. Fill
 
 ----
 
-__Credits:__
+## Credits:
 
 Many thanks to bvanheu for the great creating tool and mayrthom for the python script to convert the .bin files
 
 ----
 
-__Todo__
+## Todo
+
 - [ ] Establish serial connection to the printer
 - [ ] Read EEPROM
 - [ ] Get and transfer UID
