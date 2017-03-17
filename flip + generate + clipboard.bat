@@ -41,10 +41,16 @@ echo Ausgabe zur Kontrolle:
 echo SwapUID: %UID%
 echo New SNr: %SNR%
 echo\
+echo\
 
 :: Wechsel in das Verzeichnis und erstellen der new.bin
 :: cd C:\Temp\refill\
 stratasys-cli.py %VAR_1% %UID% %VAR_3% %SNR% %VAR_4%
+
+:: Show info of the .bin file
+stratasys-cli.py %VAR_1% %UID% -i new.bin
+echo\
+echo\
 
 :: Umwandeln der new.bin in CSV + CopyData2Clipboard
 set VAR_1=-i new.bin -s -o csv.txt
