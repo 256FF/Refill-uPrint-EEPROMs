@@ -1,7 +1,7 @@
 import binascii
 import argparse
 import sys
-parser = argparse.ArgumentParser(description='Translate .bin files into CSV')
+parser = argparse.ArgumentParser(description='Convert .bin files to CSV and clipboard')
 
 parser.add_argument("-i", "--inputfile", action="store")
 parser.add_argument("-s", "--save", action="store_true")
@@ -14,10 +14,7 @@ with open(args.inputfile, 'rb') as f:
 string = binascii.hexlify(content)
 #print string
 length = len (string)
-
-#string = "ew 0 1 0 \"" + string
 length = length - 2
-#print length
 
 i = 0
 k = 0
@@ -29,7 +26,8 @@ while k < length:
 
 # Add write command for DIAG-Port connection
 string = "ew 0 1 0 \"" + string + "\""
-	
+
+# print complete content
 print string
 
 if args.save:
