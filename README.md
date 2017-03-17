@@ -63,4 +63,5 @@ __Take the model cassette out after writing the eeprom and insert it again. Fill
 ----
 
 __Credits:__
-Many thanks to @bvanheu for the great creating tool and @mayrthom for the python script to convert the .bin files
+
+Many thanks to bvanheu for the great creating tool and mayrthom for the python script to convert the .bin files
