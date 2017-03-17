@@ -65,3 +65,17 @@ __Take the model cassette out after writing the eeprom and insert it again. Fill
 __Credits:__
 
 Many thanks to bvanheu for the great creating tool and mayrthom for the python script to convert the .bin files
+
+----
+
+__Todo__
+- [ ] Establish serial connection to the printer
+- [ ] Read EEPROM
+- [ ] Get and transfer UID
+- [x] Reverse UID
+- [x] Autocreate "unique" new serial number
+- [x] Transfer variables to stratasys-cli.py to create a new .bin file
+- [x] Convert HEX date to CSV
+- [x] Add write command for flashing EEPROM via DIAG port
+- [x] Copy string to clipboard
+- [ ] Write EEPROM via DIAG port
