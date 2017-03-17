@@ -75,6 +75,7 @@ Many thanks to bvanheu for the great creating tool and mayrthom for the python s
 - [x] Reverse UID
 - [x] Autocreate "unique" new serial number
 - [x] Transfer variables to stratasys-cli.py to create a new .bin file
+- [ ] Show info of created file
 - [x] Convert HEX date to CSV
 - [x] Add write command for flashing EEPROM via DIAG port
 - [x] Copy string to clipboard
