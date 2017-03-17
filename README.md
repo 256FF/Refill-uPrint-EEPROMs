@@ -56,7 +56,6 @@ Remember to edit the line 31 in trans_cp.py if you have one or two bays under th
 Filling will bei __42 cu in__. If you want other quantities you have to edit line 6 in the batch _flip + generate + clipboard.bat_
 * --initial-material __42.0__ --current-material __42.0__
 
-----
 
 __Take the model cassette out after writing the eeprom and insert it again. Filling will bei 100% again.__
 
