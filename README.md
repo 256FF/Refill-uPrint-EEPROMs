@@ -59,3 +59,8 @@ Filling will bei __42 cu in__. If you want other quantities you have to edit lin
 ----
 
 __Take the model cassette out after writing the eeprom and insert it again. Filling will bei 100% again.__
+
+----
+
+__Credits:__
+Many thanks to @bvanheu for the great creating tool and @mayrthom for the python script to convert the .bin files
