@@ -20,7 +20,7 @@ set /p UID=UID eingeben:
 :: set /p SNR=Seriennummer eingeben (x.0): 
 
 :: Seriennummer automatisch erzeugen aus Datum und Uhrzeit
-:: JJJJMMTTHHMMSS
+:: JJJJMMTTMMSS - ohne HH
 :: set /a SNR=%date:~8,2%%date:~3,2%%date:~0,2%%time:~0,2%%time:~3,2%%time:~6,2%
 set /a SNR=%date:~8,2%%date:~3,2%%date:~0,2%%time:~3,2%%time:~6,2%
 
@@ -38,8 +38,8 @@ set UID=%HX_7%%HX_6%%HX_5%%HX_4%%HX_3%%HX_2%%HX_1%%HX_0%
 :: Ausgabe der eingegebenen Werte
 echo\
 echo Ausgabe zur Kontrolle:
-echo SwapUID=%UID%
-echo SNR=%SNR%
+echo SwapUID: %UID%
+echo New SNr: %SNR%
 echo\
 
 :: Wechsel in das Verzeichnis und erstellen der new.bin
