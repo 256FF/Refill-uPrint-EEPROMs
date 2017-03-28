@@ -69,7 +69,7 @@ Many thanks to bvanheu for the great creating tool and mayrthom for the python s
 
 ## Todo
 
-- [ ] Translate to english
+- [x] Translate to english
 - [ ] Establish serial connection to the printer
 - [ ] Read EEPROM
 - [ ] Get and transfer UID
