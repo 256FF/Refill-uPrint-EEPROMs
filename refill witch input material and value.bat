@@ -19,7 +19,10 @@ set HX_4=%7
 set HX_5=%8
 set HX_6=%9
 set HX_7=%10
+set LOOP=%13
 
+:START
+cls
 :: Input
 set /p UID=UID: 
 set /p MAT=P430_IVR or ABS_SS: 
@@ -73,4 +76,13 @@ echo\
 echo Write command has been copied to the clipboard. Swtich to putty and paste it. 
 echo Make sure to choose the right bay! 
 echo\
+
+:: Abfrage Neustart oder Ende
+:: Restart or exit
+set /p LOOP=restart (r) oder exit (x): 
+if "%LOOP%" == "r" GOTO START
+GOTO END
+
+
+:END
 pause
