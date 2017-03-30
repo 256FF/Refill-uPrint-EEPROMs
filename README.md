@@ -73,9 +73,9 @@ Many thanks to bvanheu for the great creating tool and mayrthom for the python s
 - [ ] Establish serial connection to the printer
 - [ ] Read EEPROM
 - [ ] Get and transfer UID
-- [ ] Choose Material
+- [x] Choose Material
 - [ ] Choose Bay (for flash command)
-- [ ] Choose filling quantity
+- [x] Choose filling quantity
 - [x] Reverse UID
 - [x] Autocreate "unique" new serial number
 - [x] Transfer variables to stratasys-cli.py to create a new .bin file
@@ -84,4 +84,4 @@ Many thanks to bvanheu for the great creating tool and mayrthom for the python s
 - [x] Add write command for flashing EEPROM via DIAG port
 - [x] Copy string to clipboard
 - [ ] Write EEPROM via DIAG port
-- [ ] Restart or Exit
+- [x] Restart or Exit
