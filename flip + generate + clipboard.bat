@@ -3,7 +3,8 @@ set VAR_1=eeprom --machine-type uprint --eeprom-uid
 set UID=%1
 set SNR=%2
 set VAR_3=--serial-number
-set VAR_4=--material-name P430_IVR --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material 42.0 --current-material 42.0 --key-fragment 55aa55c395bf4ebe --version 1 --signature SMARTFILL -o new.bin
+:: change material-name for e.g. support to ABS_SS | change initial-material and current-material to other values
+set VAR_4=--material-name P430_IVR --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material 42.0 --current-material 42.0 --key-fragment 55aa55c395bf4ebe --version 1 --signature NOTSTRATA -o new.bin
 set HX_0=%3
 set HX_1=%4
 set HX_2=%5
