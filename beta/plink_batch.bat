@@ -12,3 +12,5 @@
 @echo off
 
 "C:\Program Files\PuTTY\plink.exe" -P COM4 -sercfg 38400,8,n,1,X -m "C:\Program Files\PuTTY\read_diag.txt"
+
+pause
