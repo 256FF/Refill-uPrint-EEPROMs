@@ -1,6 +1,6 @@
 :: Batch to create the data to refill the EEPROM of uPrints via DIAG-Port connection
-:: DATE: 30.03.2017
-:: Version: 3.0
+:: DATE: 26.04.2017
+:: Version: 3.1
 :: Author: 256FF (https://github.com/256FF)
 
 @echo off
