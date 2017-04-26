@@ -10,7 +10,7 @@ set SNR=%2
 set VAR_3=--serial-number
 set MAT=%11
 set VOL=%12
-set VAR_4=--material-name %MAT% --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material %VOL% --current-material %VOL% --key-fragment 55aa55c395bf4ebe --version 1 --signature NOTSTRATA -o new.bin
+set VAR_4=--material-name %MAT% --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material %VOL% --current-material %VOL% --key-fragment 55aa55c395bf4ebe --version 1 --signature STRATASYS -o new.bin
 set HX_0=%3
 set HX_1=%4
 set HX_2=%5
@@ -27,7 +27,7 @@ cls
 set /p UID=UID: 
 set /p MAT=P430_IVR or ABS_SS: 
 set /p VOL=Filling value (40.0): 
-set VAR_4=--material-name %MAT% --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material %VOL% --current-material %VOL% --key-fragment 55aa55c395bf4ebe --version 1 --signature SMARTFILL -o new.bin
+set VAR_4=--material-name %MAT% --manufacturing-lot 7567 --manufacturing-date "2017-01-01 01:01:01" --use-date "2017-01-01 01:01:01" --initial-material %VOL% --current-material %VOL% --key-fragment 55aa55c395bf4ebe --version 1 --signature STRATASYS -o new.bin
 
 :: Option to manually input serial number
 :: set /p SNR=New serial number (x.0): 
